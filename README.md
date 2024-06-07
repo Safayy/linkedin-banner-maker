@@ -1,1 +1,0 @@
-# linkedin-banner-maker
