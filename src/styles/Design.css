@@ -1,0 +1,21 @@
+.banner {
+    background-color: rgb(175, 211, 218);
+    height: 500px;
+    width: 500px;
+    /* height: 396px;
+    width: 1584px; */
+}
+.banner h1 {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.draggable {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.x {
+    color: pink;
+}
+@media screen {
+    
+}

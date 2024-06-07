@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root, a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(37, 43, 70);
+}
+body {
+  background-color: beige;
+}
