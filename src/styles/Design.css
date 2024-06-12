@@ -50,14 +50,22 @@
     font-size: 2em;
 }
 .flexbox {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
-    display: relative;
+}
+.labelimagebox {
+    position: relative;
+    width: 200px;
+    margin-right: 15px;
 }
 .labelimagebox img {
-    width: 30%;
+    width: 100%;
 }
 .labelimagebox span {
-    display: absolute;
-    top: 0px;
+    position: absolute;
+    z-index: 2;
+    color: black;
+    left: 20%;
+    bottom: 0;
+    margin-bottom: 10px;
 }

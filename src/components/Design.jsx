@@ -46,26 +46,41 @@ const Design = () => {
         </div>
         <div className="toolbar">
        <form className='line'>
-        <label>Color</label>
-        <input/>
+        <label>Text Color</label>
+        <input type='color'/>
 
         <label>Fonts</label>
-        <input></input>
+        <select id="fonts" name="fonts">
+            <option value="timesnewroman">Times New Roman</option>
+            <option value="poppy">Poppy</option>
+        </select>
 
         <label>Background Images</label>
-        <div className='images flexbox'>
+        <div className='flexbox'>
             <div className='labelimagebox'>
-                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" />
-                <span>Image Name</span>
+                <span>Name</span>
+                <img src="https://marketplace.canva.com/EAENvp21inc/1/0/1600w/canva-simple-work-linkedin-banner-qt_TMRJF4m0.jpg" alt="" />
+            </div>
+            <div className='labelimagebox'>
+                <img src="https://marketplace.canva.com/EAENvp21inc/1/0/1600w/canva-simple-work-linkedin-banner-qt_TMRJF4m0.jpg" alt="" />
+                <span>Name</span>
             </div>
         </div>
 
-        <label>Font Color</label>
-        <input></input>
-         
+        <label>Layouts</label>
+        <div className='flexbox'>
+            <div className='labelimagebox'>
+                <span>Name</span>
+                <img src="https://marketplace.canva.com/EAENvp21inc/1/0/1600w/canva-simple-work-linkedin-banner-qt_TMRJF4m0.jpg" alt="" />
+            </div>
+            <div className='labelimagebox'>
+                <img src="https://marketplace.canva.com/EAENvp21inc/1/0/1600w/canva-simple-work-linkedin-banner-qt_TMRJF4m0.jpg" alt="" />
+                <span>Name</span>
+            </div>
+        </div>
 
         </form>
-        <button onClick={exportImage}>Extract Image</button>
+        <button className='button' onClick={exportImage}>Extract Image</button>
         </div>
         </>
      );

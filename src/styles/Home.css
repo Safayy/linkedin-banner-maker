@@ -13,7 +13,7 @@
 .header {
     margin: 0 auto;
 }
-#create {
+.button {
     background-color: yellow;
     border-radius: 60px;
     padding: 20px;

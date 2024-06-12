@@ -6,7 +6,7 @@ const Home = () => {
         <div className="header center">
         <h1>LinkedIn Banner Maker</h1>
         <p>Quickly create a customized linked in banner. Just fill in some simple questions first.</p>
-        <button id="create" onClick={() => navigate('/create')}>Create Yours Now!</button>
+        <button className="button" onClick={() => navigate('/create')}>Create Yours Now!</button>
         </div>
  );
 }
