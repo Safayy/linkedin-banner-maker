@@ -1,21 +1,63 @@
+.show {}
 .banner {
-    background-color: rgb(175, 211, 218);
-    height: 500px;
-    width: 500px;
+    background-color: rgb(18, 169, 33);
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    aspect-ratio: 1584 / 396;
     /* height: 396px;
     width: 1584px; */
+    margin-bottom: 20px;
+    /* background-image: url('https://images3.alphacoders.com/133/1338701.png'); */
+    background-image: url('../assets/bg1.png');
 }
 .banner h1 {
     width: -moz-fit-content;
     width: fit-content;
 }
+.profile {
+    position: relative;
+    background-color: indianred;
+}
+.profile-photo img {
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    aspect-ratio: 1;
+    border: 5px solid beige;
+    border-radius: 600px;
+    margin-left: 1em;
+    top: 50%;
+}
 .draggable {
     padding: 20px;
     border: 1px solid #ddd;
 }
-.x {
-    color: pink;
+.toolbar {
+    border-radius: 50px;
+    padding: 20px;
 }
-@media screen {
-    
+.item {
+    color: white;
+}
+#name {
+    font-size: 4em;
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+}
+#job {
+    font-size: 2em;
+}
+.flexbox {
+    display: flexbox;
+    flex-direction: row;
+    display: relative;
+}
+.labelimagebox img {
+    width: 30%;
+}
+.labelimagebox span {
+    display: absolute;
+    top: 0px;
 }

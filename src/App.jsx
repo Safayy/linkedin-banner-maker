@@ -9,20 +9,18 @@ import NotFound from './components/NotFound';
 import Design from './components/Design';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
         <Router>
         <Navbar/>
-        <div className="content"> {/* center content */}
+        <div className="content">
             <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/create" element={<Create/>} />  
             <Route path="/create/:name/:phone/:email/:job/:website" element={<Design/>} />   
             <Route path="*" element={<NotFound/>} />
             </Routes>
-          </div>
+          </div>  
         </Router>
     </>
   )

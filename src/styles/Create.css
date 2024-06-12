@@ -1,25 +1,25 @@
 span {
-    float: left;
-    align-self: center;
-    align-content: center;
+  float: left;
+  align-self: center;
+  align-content: center;
 }
 * {box-sizing: border-box;}
 
 form {
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: column;
-    align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 form label {
-    margin: 5px 20px 5px 0;
+  margin: 5px 20px 5px 0;
 }
 
 form input {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 5px 10px 5px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 10px 5px 0;
 }
 
 form button {
